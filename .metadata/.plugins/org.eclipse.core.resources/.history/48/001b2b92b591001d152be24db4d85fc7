@@ -1,0 +1,30 @@
+package org.zkoss.ZKHibernate.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+
+import org.zkoss.ZKHibernate.domain.Mmobil;
+import org.zkoss.utils.StoreHibernateUtil;
+
+public class MmobilDAO {
+	
+	private Session session;
+	
+	// coba list paging
+	// ini apaan maksudnya?
+	@SuppressWarnings("unchecked")
+	public List <Mmobil> listPaging(int first, int second, String filter, String orderby) throws Exception {
+		List<Mmobil> oList = null;
+		if (filter == null || "".equals(filter)) 
+			filter = "0 = 0";
+		session = StoreHibernateUtil.openSession();
+		oList = session.createSQLQuery("select * from Mmobil where " + filter + " order by " + orderby + " limit " + second + " offset " + first).addEntity(Mmobil.class).list();
+		
+		session.close();
+		return oList;
+	}
+
+}

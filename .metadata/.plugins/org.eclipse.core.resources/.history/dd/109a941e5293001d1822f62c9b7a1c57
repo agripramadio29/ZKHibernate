@@ -1,0 +1,8 @@
+<?page title="testing doang" contentType="text/html;charset=UTF-8"?>
+<zk xmlns:w="client" xmlns:n="native">
+<div id="bdlogin" class="container-fluid" style="background-color: #56BAED;">
+<window title="testing doang" border="normal">
+New Content Here!
+</window>
+</div>
+</zk>

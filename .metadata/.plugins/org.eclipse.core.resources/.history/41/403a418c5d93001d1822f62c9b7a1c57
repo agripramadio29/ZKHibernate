@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/incamsdb</property>
+		<!-- <property name="hibernate.connection.url">jdbc:postgresql://10.32.4.44:5432/incamsdb</property> -->
+		<!-- <property name="hibernate.connection.url">jdbc:postgresql://10.12.4.164:5432/incamsdb</property> -->
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="connection.password">postgres</property>
+
+		<property name="hibernate.jdbc.batch_size">20</property>
+		<property name="hibernate.cache.use_second_level_cache">false</property>
+
+		<!-- Use the C3P0 connection pool. -->
+		<property name="hibernate.c3p0.min_size">10</property>
+		<property name="hibernate.c3p0.max_size">100</property>
+		<property name="hibernate.c3p0.acquire_increment">1</property>
+		<property name="hibernate.c3p0.idle_test_period">3000</property>
+		<property name="hibernate.c3p0.max_statements">50</property>
+		<property name="hibernate.c3p0.timeout">1800</property>
+		<property name="hibernate.c3p0.validate">1800</property>
+
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<!-- Enable Hibernate's automatic session context management -->
+		<property name="current_session_context_class">thread</property>
+
+		<!-- Disable second-level cache. -->
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+		<property name="cache.use_query_cache">false</property>
+		<!-- <property name="cache.use_minimal_puts">false</property> <property 
+			name="max_fetch_depth">3</property> -->
+
+		<property name="show_sql">true</property>
+		<property name="use_sql_comments">false</property>
+		<!-- <property name="format_sql">true</property> <property name="hbm2ddl.auto"></property> -->
+
+		<mapping class="com.sdd.incams.domain.Mbranch" />
+		<mapping class="com.sdd.incams.domain.Mflow" />
+		<mapping class="com.sdd.incams.domain.Mmenu" />
+		<mapping class="com.sdd.incams.domain.Mproduct" />
+		<mapping class="com.sdd.incams.domain.Mproducttype" />
+		<mapping class="com.sdd.incams.domain.Mregion" />
+		<mapping class="com.sdd.incams.domain.Msysparam" />
+		<mapping class="com.sdd.incams.domain.Munit" />
+		<mapping class="com.sdd.incams.domain.Muser" />
+		<mapping class="com.sdd.incams.domain.Musergroup" />
+		<mapping class="com.sdd.incams.domain.Musergroupmenu" />
+		<mapping class="com.sdd.incams.domain.Mvendor" />
+
+		<mapping class="com.sdd.incams.domain.Tcardhistory" />
+		<mapping class="com.sdd.incams.domain.Tcardno" />
+		<mapping class="com.sdd.incams.domain.Tcardnosale" />
+		<mapping class="com.sdd.incams.domain.Tcardsale" />
+		<mapping class="com.sdd.incams.domain.Tcounterengine" />
+		<mapping class="com.sdd.incams.domain.Tdelivery" />
+		<mapping class="com.sdd.incams.domain.Tdeliverydata" />
+		<mapping class="com.sdd.incams.domain.Tdo" />
+		<mapping class="com.sdd.incams.domain.Tdocardno" />
+		<mapping class="com.sdd.incams.domain.Torder" />
+		<mapping class="com.sdd.incams.domain.Tordercard" />
+		<mapping class="com.sdd.incams.domain.Torderdoc" />
+		<mapping class="com.sdd.incams.domain.Torderflow" />
+		<mapping class="com.sdd.incams.domain.Tordermemo" />
+		<mapping class="com.sdd.incams.domain.Tpo" />
+		<mapping class="com.sdd.incams.domain.Tprocur" />
+		<mapping class="com.sdd.incams.domain.Tstock" />
+		<mapping class="com.sdd.incams.domain.Tstockbranchprod" />
+		<mapping class="com.sdd.incams.domain.Tstockregionprod" />
+		<mapping class="com.sdd.incams.domain.Vbranchdelivery" />
+		<mapping class="com.sdd.incams.domain.VorderCount" />
+		<mapping class="com.sdd.incams.domain.Tstockregion" />
+		<mapping class="com.sdd.incams.domain.Tstockbranch" />
+
+	</session-factory>
+</hibernate-configuration>

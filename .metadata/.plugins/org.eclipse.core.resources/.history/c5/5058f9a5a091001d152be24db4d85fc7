@@ -1,0 +1,5 @@
+package org.zkoss.ZKHibernate.dao;
+
+public class MmobilDAO {
+
+}
