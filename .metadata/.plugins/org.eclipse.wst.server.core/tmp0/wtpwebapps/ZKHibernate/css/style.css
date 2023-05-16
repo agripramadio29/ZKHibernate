@@ -1,19 +1,32 @@
 @charset "ISO-8859-1";
 
-.card-header{
-	background-color: #56BAED;
-	color: #ffffff;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-}
-.zk{
-	background-color: #56BAED;
+
+.z-window-content {
+	border-radius: 10px;
 }
 
-.window-index{
-	background-color: #56BAED;
+.zk{
+	background-color: #D30000;
 }
 
 .z-body-disd{
 	background-color: #000000;
+}
+
+.header{
+	background-color: #D30000;
+}
+
+.z-window-content{
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+@font-face {
+    font-family: 'Baseball';
+    src: url('fonts/krinkesdecorpersonal-webfont.woff2') format('woff2'),
+         url('fonts/krinkesdecorpersonal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

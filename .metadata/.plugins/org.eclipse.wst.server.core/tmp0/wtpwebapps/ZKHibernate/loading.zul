@@ -1,0 +1,19 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style>
+		@font-face { font-family: 'Como'; 
+		src: local('Como Bold'),
+		local('Como-Bold'), url('Como-Bold.woff2') format('woff2'),
+		url('fonts/Como-Bold.woff') format('woff'), url('fonts/Como-Bold.ttf')
+		format('truetype'); 
+		font-weight: 700; 
+		font-style: normal; }
+	</style>
+
+
+	<window title="new page title" border="normal">
+		<label style="font-family: Como !important;">
+		INCAMS
+		</label>
+	</window>
+</zk>

@@ -1,0 +1,45 @@
+package org.zkoss.ZKHibernate.tests;
+
+import org.zkoss.ZKHibernate.Geometry;
+
+import junit.framework.Assert;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class GeometryTest {
+	
+	private Geometry geometry;
+	
+	
+	private double circleArea = geometry.circleArea(70);
+	
+	@SuppressWarnings("deprecation")
+	@Test
+	public void givenRadius_circleArea() {
+		double result = circleArea;
+		double expectedResult = 15393.804002589986;
+		assertEquals(expectedResult, result);
+	}
+
+	public Geometry getGeometry() {
+		return geometry;
+	}
+
+	public void setGeometry(Geometry geometry) {
+		this.geometry = geometry;
+	}
+
+	public double getCircleArea() {
+		return circleArea;
+	}
+
+	public void setCircleArea(double circleArea) {
+		this.circleArea = circleArea;
+	}
+	
+	
+	
+	
+
+}

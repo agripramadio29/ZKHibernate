@@ -1,8 +1,60 @@
 <?page title="testing doang" contentType="text/html;charset=UTF-8"?>
 <zk xmlns:w="client" xmlns:n="native">
-<div id="bdlogin" class="container-fluid" style="background-color: #56BAED; background-image: url('images/test.jpg');">
-<window title="testing doang" border="normal">
-New Content Here!
+<style>
+
+.z-window-content{
+ 
+ width: 500px;
+ height: 500px;
+ background-color: transparent;
+}
+
+body {
+	background-image: url('images/background3.jpg');
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+
+
+</style>
+<window style="background-color: transparent;">
+	<div class="banner">
+		<n:h3 style="text-align: center; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+		font-family: Magneto; font-size: 50px; font-weight: italic; padding-right: 50px;">
+		Pamer Mobil
+		</n:h3>
+	</div>
+	<n:form id="fmlogin"
+					class="text-center border border-light z-depth-1-half pl-4 pr-4">
+					<n:ul style="list-style: none;">
+					<label sclass="text-danger"
+						value="@bind(vm.lblMessage)"
+						style="margin-top: 70px" />
+						<n:li>
+					<textbox id="tbUsername" value="@bind(vm.userid)"
+						maxlength="15" focus="true"
+						style="background-color: #C5E3EC !important; opacity: .6; color: black;"
+						sclass="form-control form-control-md mb-4 rounded-pill"
+						placeholder="User ID" />
+						</n:li>
+						 <n:li>
+						 <separator />
+					<textbox id="tbPassword" value="@bind(vm.password)"
+						type="password" maxlength="20"
+						style="background-color: #C5E3EC !important; opacity: .6; color: black;"
+						sclass="form-control form-control-md mb-4 rounded-pill"
+						onOK="@command('doLogin')" placeholder="Password" />
+						</n:li> 
+						<separator>
+						</separator>
+					<button onClick="@command('doLogin')" 
+						style="opacity: .9; background-color: #C5E3EC; font-family: Magneto; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"
+						autodisable="self" 
+						class="btn btn-outline-danger btn-block my-4 rounded-pill" label="Log In" />
+				</n:ul>	
+				</n:form>
+				
 </window>
-</div>
 </zk>

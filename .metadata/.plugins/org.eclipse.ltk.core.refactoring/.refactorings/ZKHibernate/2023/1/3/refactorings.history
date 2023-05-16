@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ZKHibernate/src/main/webapp/images/1958-Plymouth-Fury-001-1080.jpg&apos; to &apos;test2.jpg&apos;" description="Rename resource &apos;1958-Plymouth-Fury-001-1080.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/images/1958-Plymouth-Fury-001-1080.jpg" name="test2.jpg" stamp="1673857286688" updateReferences="true"/>
+</session>

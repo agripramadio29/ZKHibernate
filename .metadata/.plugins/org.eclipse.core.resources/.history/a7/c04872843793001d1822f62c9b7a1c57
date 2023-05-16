@@ -1,8 +1,0 @@
-@charset "ISO-8859-1";
-
-.card-header{
-	background-color: #8B0000;
-	color: #ffffff;
-	border-top-left-radius:15px;
-	border-top-right-radius:15px;
-}

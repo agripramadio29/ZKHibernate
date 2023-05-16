@@ -22,4 +22,6 @@ public class MyViewModel {
 	public int getCount() {
 		return count;
 	}
+	
+	
 }

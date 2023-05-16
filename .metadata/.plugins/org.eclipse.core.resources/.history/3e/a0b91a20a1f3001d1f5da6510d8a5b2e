@@ -1,0 +1,5 @@
+package org.zkoss.ZKHibernate;
+
+public class Geometry {
+
+}

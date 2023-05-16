@@ -1,0 +1,28 @@
+package org.zkoss.ZKHibernate;
+
+import java.math.*;
+
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class CobaCobaAja {
+	
+	public int factorial(int n) {
+		int hasil = 1;
+		for (int i = 1; i < n+1; i++) {
+			hasil = hasil * i;
+		}
+		System.out.println(hasil);
+		return hasil; 
+		}
+	
+
+	public static void main(String[] args) {
+		
+			CobaCobaAja test = new CobaCobaAja();
+			test.factorial(4);
+		}
+	}
+	
+

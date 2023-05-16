@@ -1,0 +1,11 @@
+127.0.0.1 - - [19/Jan/2023:09:34:53 +0000] "GET /ZKHibernate/test.zul HTTP/1.1" 404 717
+127.0.0.1 - - [19/Jan/2023:09:35:43 +0000] "GET /ZKHibernate/test.zul HTTP/1.1" 200 1426
+127.0.0.1 - - [19/Jan/2023:09:35:44 +0000] "GET /ZKHibernate/zkau/web/42133cbe/js/zul.lang.wpd HTTP/1.1" 200 2124
+127.0.0.1 - - [19/Jan/2023:09:35:44 +0000] "GET /ZKHibernate/zkau/web/42133cbe/zul/img/misc/progress-72.gif HTTP/1.1" 200 42104
+127.0.0.1 - - [19/Jan/2023:09:35:44 +0000] "GET /ZKHibernate/images/background3.jpg HTTP/1.1" 200 546699
+127.0.0.1 - - [19/Jan/2023:09:35:45 +0000] "GET /ZKHibernate/zkau/web/42133cbe/zul/css/zk.wcs HTTP/1.1" 200 25376
+127.0.0.1 - - [19/Jan/2023:09:36:27 +0000] "GET /ZKHibernate/index.zul HTTP/1.1" 200 1863
+127.0.0.1 - - [19/Jan/2023:09:36:27 +0000] "GET /ZKHibernate/zkau/web/42133cbe/js/zul.lang.wpd HTTP/1.1" 200 2124
+127.0.0.1 - - [19/Jan/2023:09:36:28 +0000] "GET /ZKHibernate/images/test2.jpg HTTP/1.1" 200 367131
+127.0.0.1 - - [19/Jan/2023:12:03:21 +0000] "POST /ZKHibernate/zkau HTTP/1.1" 200 9
+127.0.0.1 - - [19/Jan/2023:12:09:23 +0000] "POST /ZKHibernate/zkau HTTP/1.1" 200 9

@@ -1,49 +1,62 @@
 <?page title="Auto Generated index.zul"?>
-<?link rel="stylesheet" type="text/css"	href="/css/style.css" ?>
+
 
 <zk xmlns:w="client" xmlns:n="native" style="background-color: #000000 !important;">
-<div style="background-color: #56BAED;">
+
 
 <style>
 
 body {
-background-color: #000000;
+background-image: url('images/test2.jpg');
+background-color: transparent;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.z-window-content{
+ border-top-left-radius: 10px;
+ background-color: transparent;
+ 
 }
 
 </style>
 
 <window id="window-index"
+style="background-color: transparent;"
 viewModel="@id('vm') @init('org.zkoss.ZKHibernate.viewmodel.MmobilVm')"
 validationMessages="@id('vmsgs')"
- 
 >
-<label value="You are using: ${desktop.webApp.version}"/>
 			<div class="card-header">
-				<div class="title-b">
-					<n:h5 id="header" style="text-align: center; height: 50px;">
-						<n:b>PAMER MOBIL</n:b>
-					</n:h5>
+				<div class="title-b" >
+					<n:h3 style="text-align: center; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+		font-family: Magneto; font-size: 50px; font-weight: italic; background-color: transparent !important; padding-top: 25px;">
+		Pamer Mobil
+		</n:h3>
 				</div>
-			</div>
-			<div class="card-body"
+				<div class="card-body" style="background-color: transparent; border-radius: 10px !important;" 
 			form="@id('e') @load(vm.objForm) @save(vm.objForm, before='save')
 			@validator(vm.validator) " >
 				<n:table class="table table-striped table-sm">
 					<n:tr>
-						<n:td>Merek Mobil</n:td>
+						<n:td style="color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+		font-family: Magneto; font-size: 20px; font-weight: italic; background-color: transparent !important;">Merek Mobil</n:td>
 						<n:td>
 							<textbox value="@bind(e.merekmobil)"
-								cols="35" maxlength="10" />
+								cols="35" maxlength="10" 
+								style="background-color: transparent; color: white;"/>
 							<label style="color:red"
 								value="@load(vmsgs['merekmobil'])"
 								 />
 						</n:td>
 					</n:tr>
 					<n:tr>
-						<n:td>Tipe Mobil</n:td>
+						<n:td style="color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+		font-family: Magneto; font-size: 20px; font-weight: italic; background-color: transparent !important;">Tipe Mobil</n:td>
 						<n:td>
 							<textbox value="@bind(e.tipemobil)"
-								cols="35" maxlength="40" />
+								cols="35" maxlength="40"
+								style="background-color: transparent; color: white;" />
 							<label style="color:red" 
 								value="@load(vmsgs['tipemobil'])"
 								 />
@@ -51,48 +64,56 @@ validationMessages="@id('vmsgs')"
 					</n:tr>
 				</n:table>
 			</div>
-			
 			<div class="panel-footer">
 				<div class="card-footer">
 					<div class="btn-group">
 						<button id="btnSave"
 							class="btn btn-primary btn-sm"
-							style="border-bottom-left-radius:8px; border-top-left-radius:8px"
+							style="border-bottom-left-radius:8px; border-top-left-radius:8px; background-color: white;"
 							label="${labels.common.save}" onClick="@command('save')"  /> 
 						<button id="btnCancel"
 							class="btn btn-default btn-sm" label="${labels.common.cancel}"
+							style="background-color: white;"
 							onClick="@command('cancel')" />
 						<button id="btnDelete"
 							class="btn btn-danger btn-sm"
-							style="border-bottom-right-radius:8px; border-top-right-radius:8px;"
+							style="border-bottom-right-radius:8px; border-top-right-radius:8px; background-color: white;"
 							label="${labels.common.del}" onClick="@command('delete')" /> 
 					</div>
 				</div>
 			</div>
+			<separator />
 			
-			<separator /> 
-			
-			<paging id="paging" autohide="true" />
+			<div class="card">
+			<paging id="paging" autohide="true"  width="400px"/>
 			<listbox id="listbox" emptyMessage="LO PUNYA MOBIL APE?"
-			selectedItem="@bind(vm.objForm)">
+			style="border-radius: 10px; margin-left: 700px"
+			selectedItem="@bind(vm.objForm)"
+			width="590px"
+			>
 			<listhead>
 				<listheader label="${labels.common.no}" 
-					style="background-color: #8B0000 !important; border-color: #f1f2f2 !important;" 
-					width="100px"/>
+					style="background-color: #C8092D !important; border-color: #f1f2f2 !important; font-family: Magneto;" 
+					width="100px" height="50px"/>
 				<listheader sort="auto(merekmobil)" align="center" 
-					style="background-color: #8B0000 !important; border-color: #f1f2f2 !important;"
+					style="background-color: #C8092D !important; border-color: #f1f2f2 !important;"
 					 width="200px">
 					 <textbox inplace="true" class="cheader" 
 					 value="@bind(vm.merekmobil)" cols="15" maxlength="10"
-					 placeholder="Merek Mobil"
+					 placeholder="Merek Mobil"  
 					 tooltiptext="${labels.common.searchonheader}"
+					 style="font-family: Magneto;"
 					 />
 					 </listheader>
 				<listheader label="Tipe Mobil" 
-					style="background-color: #8B0000 !important; border-color: #f1f2f2 !important;" />
+					style="background-color: #C8092D !important; border-color: #f1f2f2 !important; font-family: Magneto;" />
 			</listhead>
 		</listbox>
-			
+		</div>
+			</div>
+
+
+
 </window>
-</div>
+
 </zk>

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
     <fullyQualifiedTypeName name="org.zkoss.ZKHibernate.dao.MmobilDAO"/>
     <fullyQualifiedTypeName name="org.zkoss.ZKHibernate.domain.Mmobil"/>
     <fullyQualifiedTypeName name="org.zkoss.ZKHibernate.model.MmobilListModel"/>
     <fullyQualifiedTypeName name="org.zkoss.zk.ui.event.Events"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.zkoss.utils.StoreHibernateUtil"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="org.zkoss.zul.event.ListDataEvent"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="org.zkoss.bind.BindContext"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.zkoss.zul.Label"/>
+    <fullyQualifiedTypeName name="org.zkoss.zul.Grid"/>
 </qualifiedTypeNameHistroy>
