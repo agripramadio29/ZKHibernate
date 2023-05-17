@@ -16,4 +16,7 @@
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="org.zkoss.zul.Label"/>
     <fullyQualifiedTypeName name="org.zkoss.zul.Grid"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="org.zkoss.ZKHibernate.Geometry"/>
+    <fullyQualifiedTypeName name="junit.framework.Assert"/>
 </qualifiedTypeNameHistroy>

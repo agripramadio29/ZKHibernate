@@ -12,4 +12,8 @@ public class Geometry {
 		return Math.pow(length, 2);
 	}
 	
+	public double triangleArea(double length, double height) {
+		return length * height * 0.5;
+	}
+	
 }

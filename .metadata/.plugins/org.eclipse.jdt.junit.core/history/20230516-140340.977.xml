@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="GeometryTest" project="ZKHibernate" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="org.zkoss.ZKHibernate.tests.GeometryTest" time="0.003" displayname="GeometryTest" uniqueid="[engine:junit-vintage]/[runner:org.zkoss.ZKHibernate.tests.GeometryTest]">
-    <testcase name="givenRadius_circleArea" classname="org.zkoss.ZKHibernate.tests.GeometryTest" time="0.003" displayname="givenRadius_circleArea" uniqueid="[engine:junit-vintage]/[runner:org.zkoss.ZKHibernate.tests.GeometryTest]/[test:givenRadius_circleArea(org.zkoss.ZKHibernate.tests.GeometryTest)]"/>
-  </testsuite>
-</testrun>
