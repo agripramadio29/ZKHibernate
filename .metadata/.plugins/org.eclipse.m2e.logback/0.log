@@ -32478,3 +32478,27 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 2023-05-17 13:51:30,150 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
 2023-05-17 13:51:30,152 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-17 13:51:30,153 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
+2023-05-17 14:52:28,179 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:28,185 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
+2023-05-17 14:52:28,188 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:28,189 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
+2023-05-17 14:52:30,482 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:30,485 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
+2023-05-17 14:52:30,487 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:30,488 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
+2023-05-17 14:52:31,725 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:31,726 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
+2023-05-17 14:52:31,728 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:31,729 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
+2023-05-17 14:52:58,058 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:58,059 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
+2023-05-17 14:52:58,061 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:52:58,062 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
+2023-05-17 14:53:57,121 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:53:57,122 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
+2023-05-17 14:53:57,149 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:53:57,150 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
+2023-05-17 14:54:28,080 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:54:28,081 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\main\resources
+2023-05-17 14:54:28,082 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 14:54:28,083 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SDD_USER\Documents\Work\ZKHibernate\ZKHibernate\src\test\resources
