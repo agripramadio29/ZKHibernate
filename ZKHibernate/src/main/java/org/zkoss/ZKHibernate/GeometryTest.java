@@ -1,11 +1,10 @@
 package org.zkoss.ZKHibernate;
 
-import org.zkoss.ZKHibernate.Geometry;
 
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
-import static org.junit.Assert.assertEquals;
+
 
 public class GeometryTest {
 	
