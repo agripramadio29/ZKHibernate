@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GeometryTest (1)" project="ZKHibernate" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="org.zkoss.ZKHibernate.GeometryTest" time="0.001" displayname="GeometryTest" uniqueid="[engine:junit-jupiter]/[class:org.zkoss.ZKHibernate.GeometryTest]">
+    <testcase name="givenLength_squareArea" classname="org.zkoss.ZKHibernate.GeometryTest" time="0.0" displayname="givenLength_squareArea()" uniqueid="[engine:junit-jupiter]/[class:org.zkoss.ZKHibernate.GeometryTest]/[method:givenLength_squareArea()]"/>
+    <testcase name="givenParameter_triangleArea" classname="org.zkoss.ZKHibernate.GeometryTest" time="0.0" displayname="givenParameter_triangleArea()" uniqueid="[engine:junit-jupiter]/[class:org.zkoss.ZKHibernate.GeometryTest]/[method:givenParameter_triangleArea()]"/>
+    <testcase name="givenRadius_circleArea" classname="org.zkoss.ZKHibernate.GeometryTest" time="0.0" displayname="givenRadius_circleArea()" uniqueid="[engine:junit-jupiter]/[class:org.zkoss.ZKHibernate.GeometryTest]/[method:givenRadius_circleArea()]"/>
+  </testsuite>
+</testrun>

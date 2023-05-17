@@ -1,0 +1,25 @@
+package org.zkoss.ZKHibernate;
+
+import junit.framework.TestCase;
+
+public class TestGeometry extends TestCase {
+	
+	Geometry geometry = new Geometry();
+	public void test_circleArea() {
+		double result = geometry.circleArea(70);
+		double expectedResult = 15393.804002589986;
+		assertEquals(expectedResult, result, Math.abs(expectedResult));
+	}
+	
+	public void test_squareArea() {
+		double result = geometry.squareArea(8);
+		double expectedResult = 64;
+		assertEquals(expectedResult, result, Math.abs(expectedResult));
+	}
+	
+//	public static void main(String[] args) {
+//		Geometry geometry2 = new Geometry();
+//		System.out.println(geometry2.circleArea(70));
+//	}
+
+}
