@@ -1,9 +1,10 @@
-package org.zkoss.ZKHibernate.tests;
+package org.zkoss.ZKHibernate;
 
 import org.zkoss.ZKHibernate.Geometry;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
 import static org.junit.Assert.assertEquals;
 
 public class GeometryTest {
@@ -17,21 +18,21 @@ public class GeometryTest {
 	public void givenRadius_circleArea() {
 		double result = geometry.circleArea(70);
 		double expectedResult = 15393.804002589986;
-		assertEquals(expectedResult, result, Math.abs(expectedResult));
+		Assertions.assertEquals(expectedResult, result, Math.abs(expectedResult));
 	}
 	
 	@Test
 	public void givenLength_squareArea() {
 		double result = geometry.squareArea(16);
 		double expectedResult = 256;
-		assertEquals(expectedResult, result, Math.abs(expectedResult));
+		Assertions.assertEquals(expectedResult, result, Math.abs(expectedResult));
 	}
 	
 	@Test
 	public void givenParameter_triangleArea(){
 		double result = geometry.triangleArea(2, 4);
 		double expectedResult = 8;
-		assertEquals(expectedResult, result, Math.abs(expectedResult));
+		Assertions.assertEquals(expectedResult, result, Math.abs(expectedResult));
 	}
 
 	public Geometry getGeometry() {
